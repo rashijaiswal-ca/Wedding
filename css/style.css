@@ -395,6 +395,15 @@
 }
 /*** Team End ***/
 
+.input{
+    font-size: 20px;
+    width : 30%;
+    padding : 10px;
+    margin: 20px 15px 20px 15px ;
+    border-radius: 15px;
+    border : 1px black solid;    
+    box-shadow: 2px 2px grey;
+  }
 
 /*** Contact Us Start ***/
 .RSVP-form {
@@ -433,6 +442,22 @@
 }
 /*** Footer End ***/
 
+
+
+.submitbutton{
+    background-color: black;
+    width: auto;
+    text-align: center;
+    color : white;
+    border-radius: 50px;
+    height: auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 20px;
+    padding : 10px 20px;
+  }
+  
+  
 
 /*** copyright Start ***/
 .copyright {
@@ -501,3 +526,34 @@
       font-size: 20px;
       font-style: italic;
     }}
+
+    @media (max-width : 700px) {
+
+        .input {
+              width : 70%;  
+              padding :5px 10px;
+              font-size: 16px;
+              margin : 20px 15%;
+            }
+        }        
+
+
+/* For smaller screens */
+@media only screen and (max-width: 600px) {
+    /* Center align the label */
+    label {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px; /* Add some space below the label */
+    }
+
+    /* Style the select dropdown */
+    select {
+        width: 60%;
+        padding: 8px 12px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        margin: 0px 20% 20px; /* Add some space below the select */
+        box-sizing: border-box;
+    }
+}
